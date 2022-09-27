@@ -1,0 +1,109 @@
+body {
+    font-family: 'Warnes', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.size {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    width: 70%;
+    height: 4.5rem;
+    margin: auto;
+}
+
+p {
+    width: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.colors {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    width: 70%;
+    height: 4.5rem;
+    margin: auto;
+}
+
+#grid {
+    display: grid;
+    width: 70%;
+    height: 35rem;
+    border: 10px solid red;
+    margin: 0 auto;
+    cursor: crosshair;
+}
+
+button {
+    font-family: 'Warnes', cursive;
+    margin: 10px;
+    padding: 10px;
+    width: 10rem;
+    border-radius: 2rem;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    width: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit
+}
+
+.activeColor {
+    background-color: grey;
+    transform: scale(1.2);
+}
+
+.activeGrid {
+    background-color: grey;
+    transform: scale(1.2);
+}
+
+@media (max-width: 920px) and (min-width: 360px) {
+    .size {
+        margin-top: 2rem;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        border-bottom: 2px solid black;
+        width: 50%;
+    }
+    .colors {
+        
+        flex-direction: column;
+        align-items: center;
+        height: inherit;
+        width: 50%;
+    }
+    #grid {
+        margin-top: 2rem;
+    }
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
