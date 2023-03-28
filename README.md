@@ -1,7 +1,7 @@
 # Etch-a-sketch
 
 ## About
-Drawing game. \
+Drawing game \
 Choose between three grids \
 Choose a color \
 Show/hide grid lines
